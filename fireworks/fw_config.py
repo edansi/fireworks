@@ -6,6 +6,8 @@ import os
 import importlib
 from typing import Any
 
+import socks_proxy
+
 from monty.design_patterns import singleton
 from monty.serialization import dumpfn, loadfn
 import pymongo
